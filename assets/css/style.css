@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600|Roboto:400,500,700,900&display=swap');
+
+body{
+	font-family: roboto;
+}
+.slider h3
+.slider h5 {
+	text-shadow: 1px 1px rgba(0,0,0,0.7);
+}
+
+#actimbul, #perpustimbul, #wifitimbul{
+	color: #000!important;
+}
+
+.infopost{
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+	background: #efefef;
+}
+
+.postinfo{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.readmore{
+	padding: 10px 0px;
+	float: right;
+}
+
+.konten{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #e7e7e7;
+	margin: 10px;
+	min-height: 300px!important;
+}
+
+.porto{
+	margin-bottom: 20px;
+}
+
+#clients h3{
+	background: #fff;
+	width: 17%;
+	font-family: viga;
+	font-size: 33px;
+	color: #333!important;
+	padding: 0px 0px 10px 0px;
+	margin: 0 auto;
+	border-radius: 0px 0px 20px 20px;
+}
+.dalem{
+	padding: 30px 0px;
+}
+
+.parallax-container{
+	height: 20%;
+}
+
+.parallax img {
+	filter: grayscale(1);
+	opacity: 0.5 !important;
+}
+
+.clients img{
+	max-width: 122px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section,footer {
+	padding: 50px 0;
+}
+.logo img{
+	width: 8%;
+}
+.dinas img{
+	max-width: 100%;
+}
+.hipki img{
+	width: 38%;
+}
+.navbar-fixed{
+	font-family: viga;
+	font-size: 32px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7); 
+}
+.logo img{
+	width: 19% !important;
+}
+.garis1{
+	width: 250px;
+	border: 1.6px solid #999;
+
+}
+.progress{
+	width: 100%;
+	border: 1.6px;
+}
+#portfolio{
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/slider/1.png") 100% fixed;
+}
+.maps{
+	padding: 0px!important;
+	height: 350px;
+}
+#portfolio h3{
+	font-family: viga;
+	font-size: 33px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+#portfolio .row .col div{
+	padding: 5px;
+	margin: 2px;
+	background: #fff;
+}
+
+#contact h3{
+	font-family: viga;
+	font-size: 33px;
+	margin-bottom: 20px;
+}
+
+.navbarku{
+	background: transparent!important;
+	box-shadow: none!important;
+	transition: 0.5s;
+}
+.navbar-fixed{
+	position: fixed;
+	text-shadow: none;
+}
+
+.slider .slides>li>img{
+	filter: opacity(0.7);
+}
+.slider .slides>li>.caption{
+	top: calc((76% / 2) - 10px);
+}
+.slider h3, .slider h3 .a{
+	font-family: oswald;
+	font-size: 3rem;
+	font-weight: bold;
+}
+.slider .gabung{
+
+}
+.slider .kiri{
+	font-family: roboto;
+	font-size: 17pt;
+	margin: 0px;
+	border-radius: 10px;
+	background: #f5f5f5;
+	padding: 20px;
+	color: #333!important;
+	width: 50%;
+	font-weight: bold;
+}
+
+.slider h5{
+	font-family: roboto;
+	font-size: 17pt;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.row h3{
+	font-family: viga;
+	font-size: 33px;
+}
+.about{
+	background: #EEF4F7 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADAQMAAABs5if8AAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMACpZGJCYAAAAOSURBVAiZY1BgcGBoAAAB5gDhg9OLCwAAAABJRU5ErkJggg==');
+}
+.about>p{
+	text-align: justify!important;
+}
+.isi>h3{
+	background: #1565c0;
+	padding: 10px 0px;
+	font-size: 33px;
+	color: #fff!important;
+	border-radius: 10px;
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,.12);
+}
+.row .about, .row .angka{
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,.12);
+	padding: 19px;
+	border-radius: 10px;
+	margin-top: 20px;
+	background: #fff;
+}
+.row .about{
+	margin-right: 20px;
+}
+.row .col.m7 {
+	width: 64.333333%;
+}
+footer{
+	padding: 20px!important;
+}
+footer p{
+	margin: 0px!important;
+	color: #fff!important;
+}
+@media only screen and (min-width: 1024px){
+	.slides .right-align h3{
+		color: #000000!important;
+		background: #fff;
+		padding: 10px;
+		padding-right: 25px;
+		border-radius: 10px;
+		width: 75%;
+		float: right;
+
+	}
+	.slider .right-align h5{
+		float: right;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px){
+	.progress {
+		width: 100%;
+	}
+	.row .col.m7 {
+		width: 60.333333%!important;
+	}
+}
+@media only screen and (max-width: 768px){
+	.row .col.m7 {
+		width: 60.333333%!important;
+	}
+	#clients h3{
+		width: 33%;
+	}
+	.clients img{
+		max-width: 87px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.row .col.m7 {
+		width: 100%!important;
+	}
+	.row .col.m4{
+		width: 100%!important;
+	}
+	#clients h3 {
+		width: 59%;
+	}
+}
+@media only screen and (max-width: 412px){
+	.slider .kiri{
+		width: 100%!important;
+	}
+}
